@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mycoolmovies" name="My Cool Movies" version="1.0.0" provider-name="Your Name">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_US">A conceptual video add-on.</summary>
+        <description lang="en_US">This is an educational example of how a video add-on is structured. It demonstrates web scraping and media center integration.</description>
+        <disclaimer lang="en_US">For educational purposes only. Always respect copyright laws.</disclaimer>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+    </extension>
+</addon>

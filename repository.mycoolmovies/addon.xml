@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mycoolmovies" name="My Cool Movies Repository" version="1.0.0" provider-name="aviansey12-tech">
+    <extension point="xbmc.addon.repository" name="My Cool Movies Repository">
+        <info compressed="false">https://raw.githubusercontent.com/aviansey12-tech/MyCoolMovies2/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/aviansey12-tech/MyCoolMovies2/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/aviansey12-tech/MyCoolMovies2/main/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The repository for the My Cool Movies add-on.</summary>
+        <description>An example repository for educational purposes.</description>
+        <platform>all</platform>
+    </extension>
+</addon>```
+**Important:** I have already updated the URLs in the code above with your username (`aviansey12-tech`), your new repository name (`MyCoolMovies2`), and the correct branch name (`main`). You can just copy and paste it directly.
+
+After this, you are ready to generate the final files and upload everything. You are doing great
